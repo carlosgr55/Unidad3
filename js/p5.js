@@ -48,7 +48,7 @@ function agregarNum(num){
 function sumarNum(arreglo){
     let suma = 0;
     for(let i = 0; i<arreglo.length; i++){
-        suma += arreglo[1];
+        suma += arreglo[i];
     }
     return suma;
 }
